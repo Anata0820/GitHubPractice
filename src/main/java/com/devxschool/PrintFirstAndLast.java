@@ -18,7 +18,7 @@ public class PrintFirstAndLast {
     public static void printLetters(String[] words) {
         //TODO IMPLEMENT THIS METHOD
         for (String num : words){
-            System.out.println(" " + num.charAt(0) + num.charAt(num.length()-1));
+            System.out.println("" + num.charAt(0) + num.charAt(num.length()-1));
 
         }
     }
